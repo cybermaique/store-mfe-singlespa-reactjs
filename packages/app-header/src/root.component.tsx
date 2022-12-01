@@ -9,7 +9,7 @@ export default function Root(props) {
 
   return (
     <>
-      <section>Eu sou o HEADER!!!!!!</section>
+      <section>HEADER</section>
       <h3>Counter ::: {store.counter}</h3>
       <Navigate path="/account">Account</Navigate>
       <Navigate path="/cart">Cart</Navigate>
