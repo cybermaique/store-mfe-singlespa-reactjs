@@ -8,12 +8,7 @@ export const Navigate: React.FC<NavigateProps> = ({
   children,
 }: NavigateProps) => {
   function redirect(e: React.MouseEvent<HTMLButtonElement>) {
-    const originPath = window.location.pathname;
     navigateToUrl(e.currentTarget.name);
-
-    console.log(
-      `Saindo da rota ${originPath} e indo para a rota ${e.currentTarget.name}!`
-    );
   }
 
   return (

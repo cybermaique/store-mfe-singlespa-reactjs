@@ -8,7 +8,7 @@ export const Wrapper = styled.span<IconProps>`
   align-items: center;
   border: 0.2rem solid transparent;
   background-color: #fff;
-  border-radius: 0.4rem;
+  /* border-radius: 0.4re/m; */
   padding: 0.2rem;
 
   ${({ cursorPointer }) => css`
