@@ -9,15 +9,16 @@
   outline: none;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body,
 html {
   background-color: #fff;
   color: #000;
 }
+
+html {
+  font-size: 62.5%;
+}
+
 
 body {
   font: normal 1.6rem "DM Sans", sans-serif;

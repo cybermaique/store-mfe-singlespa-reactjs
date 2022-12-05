@@ -8,17 +8,20 @@ export const Wrapper = styled.span<IconProps>`
   align-items: center;
   border: 0.2rem solid transparent;
   background-color: #fff;
-  /* border-radius: 0.4re/m; */
+  border-radius: 0.4rem;
   padding: 0.2rem;
+  cursor: pointer;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
 
-  ${({ cursorPointer }) => css`
-    ${cursorPointer &&
+  &:focus {
+    border: 0.2rem solid #000;
+  }
+
+  ${({ staticIcon }) => css`
+    ${staticIcon &&
     css`
-      cursor: pointer;
-
-      &:focus {
-        border: 0.2rem solid #000;
-      }
+      cursor: auto;
     `}
   `}
 `;
