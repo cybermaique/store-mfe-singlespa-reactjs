@@ -6,7 +6,9 @@ Este projeto visa o desenvolvimento do layout Shoppe, desenvolvido por VitaTheme
 
 Projeto em desenvolvimento. Você pode ver o estágio atual nas imagens abaixo:
 
-Imagens
+![Imagem1](https://github.com/cybermaique/store-mfe-singlespa-reactjs/blob/master/assets/desktop.png)
+
+![Imagem2](https://github.com/cybermaique/store-mfe-singlespa-reactjs/blob/master/assets/mobile.png)
 
 ### 📋 Instalação
 
