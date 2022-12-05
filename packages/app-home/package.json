@@ -1,7 +1,8 @@
 {
-  "name": "@shoppe/app-shop",
+  "name": "@shoppe/app-home",
+  "version": "2.0.0",
   "scripts": {
-    "start": "webpack serve --port 8300",
+    "start": "webpack serve --port 8000",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
@@ -12,7 +13,8 @@
     "test": "cross-env BABEL_ENV=test jest",
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
-    "build:types": "tsc"
+    "build:types": "tsc",
+    "deploy": "sh deploy.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -49,6 +51,8 @@
     "webpack-config-single-spa-react-ts": "^4.0.0"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "single-spa-react": "^4.3.1",
@@ -59,5 +63,5 @@
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9"
   },
-  "types": "dist/shoppe-app-shop.d.ts"
+  "types": "dist/shoppe-app-home.d.ts"
 }

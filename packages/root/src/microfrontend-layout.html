@@ -1,6 +1,9 @@
 <single-spa-router>
   <application name="@shoppe/app-header"></application>
   <main>
+    <route path="/" exact>
+      <application name="@shoppe/app-home"></application>
+    </route>
     <route path="account">
       <application name="@shoppe/app-account"></application>
     </route>
@@ -10,9 +13,6 @@
     <route path="product">
       <application name="@shoppe/app-product"></application>
     </route>
-    <route path="shop">
-      <application name="@shoppe/app-shop"></application>
-    </route>
   </main>
-  <application name="@shoppe/app-footer"></application>
+  <!-- <application name="@shoppe/app-footer"></application> -->
 </single-spa-router>

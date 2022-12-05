@@ -1,11 +1,12 @@
 import styled from "@emotion/styled";
 
 export const Img = styled.img`
-  width: 9.6rem;
-  height: 2.1rem;
+  width: 11.5rem;
+  height: 2.5rem;
+  cursor: pointer;
 
   @media only screen and (min-width: 1024px) {
-    width: 19rem;
-    height: 4rem;
+    width: 12rem;
+    height: 2.6rem;
   }
 `;
